@@ -4,6 +4,8 @@ Allows you to execute `racadm` from an unsupported system by wrapping it in Dock
 
 ## Installing
 
+If using `docker-machine`, make sure it's already sourced into your environment: `eval $(docker-machine env)`
+
     git clone https://github.com/brandt/racadm-docker.git
     cd racadm-docker
     make install
